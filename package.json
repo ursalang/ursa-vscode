@@ -1,0 +1,26 @@
+{
+  "name": "ursa",
+  "publisher": "ursalang",
+  "displayName": "Ursa",
+  "description": "Ursa programming language support",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [ {
+        "id": "ursa",
+        "aliases": [ "Ursa", "ursa" ],
+        "extensions": [ ".ursa" ],
+        "configuration": "./language-configuration.json"
+      } ],
+    "grammars": [ {
+        "language": "ursa",
+        "scopeName": "source.ursa",
+        "path": "./syntaxes/ursa.tmLanguage.json"
+      } ]
+  }
+}
