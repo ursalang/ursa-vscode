@@ -2,8 +2,14 @@
 
 All notable changes to the "ursa" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 0.0.4
 
-## [Unreleased]
+- Add Change Log entries.
 
-- Initial release
+## 0.0.3
+
+- Add logo.
+
+## 0.0.2
+
+- Initial release.
