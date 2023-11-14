@@ -3,6 +3,7 @@
   "publisher": "ursalang",
   "displayName": "Ursa language support",
   "description": "Ursa programming language support",
+  "icon": "ursula-square.png",
   "version": "0.0.2",
   "repository": "ursalang/ursa-vscode",
   "engines": {
