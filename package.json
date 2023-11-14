@@ -4,7 +4,7 @@
   "displayName": "Ursa language support",
   "description": "Ursa programming language support",
   "icon": "ursula-square.png",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": "ursalang/ursa-vscode",
   "engines": {
     "vscode": "^1.82.0"
@@ -13,16 +13,25 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [ {
+    "languages": [
+      {
         "id": "ursa",
-        "aliases": [ "Ursa", "ursa" ],
-        "extensions": [ ".ursa" ],
+        "aliases": [
+          "Ursa",
+          "ursa"
+        ],
+        "extensions": [
+          ".ursa"
+        ],
         "configuration": "./language-configuration.json"
-      } ],
-    "grammars": [ {
+      }
+    ],
+    "grammars": [
+      {
         "language": "ursa",
         "scopeName": "source.ursa",
         "path": "./syntaxes/ursa.tmLanguage.json"
-      } ]
+      }
+    ]
   }
 }
