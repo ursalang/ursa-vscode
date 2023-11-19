@@ -31,7 +31,7 @@
 		"keywords": {
 			"patterns": [ {
 					"name": "keyword.control.ursa",
-					"match": "\\b(if|else|let|fn|use|loop|return|break|continue)\\b"
+					"match": "\\b(and|break|continue|else|for|fn|if|let|loop|not|of|or|return|use)\\b"
 				} ]
 		},
 		"strings": {
