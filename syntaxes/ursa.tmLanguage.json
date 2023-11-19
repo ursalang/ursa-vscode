@@ -35,13 +35,43 @@
 				} ]
 		},
 		"strings": {
-			"name": "string.quoted.double.ursa",
-			"begin": "\"",
-			"end": "\"",
 			"patterns": [
 				{
-					"name": "constant.character.escape.ursa",
-					"match": "\\\\."
+					"comment": "regular strings",
+					"name": "string.quoted.double.ursa",
+					"begin": "\"",
+					"end": "\"",
+					"patterns": [
+						{
+							"name": "constant.character.escape.ursa",
+							"match": "\\\\."
+						}
+					]
+				},
+				{
+					"comment": "raw strings and raw byte strings",
+					"name": "string.quoted.double.ursa",
+					"begin": "(b?r)(#*)(\")",
+					"beginCaptures": {
+						"1": {
+							"name": "string.quoted.byte.raw.ursa"
+						},
+						"2": {
+							"name": "punctuation.definition.string.raw.ursa"
+						},
+						"3": {
+							"name": "punctuation.definition.string.ursa"
+						}
+					},
+					"end": "(\")(\\2)",
+					"endCaptures": {
+						"1": {
+							"name": "punctuation.definition.string.ursa"
+						},
+						"2": {
+							"name": "punctuation.definition.string.raw.ursa"
+						}
+					}
 				}
 			]
 		},
