@@ -4,7 +4,7 @@
   "displayName": "Ursa language support",
   "description": "Ursa programming language support",
   "icon": "ursula-square.png",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": "ursalang/ursa-vscode",
   "engines": {
     "vscode": "^1.82.0"
