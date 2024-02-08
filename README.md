@@ -1,6 +1,6 @@
 # Ursa VS Code extension
 
-© 2023 Reuben Thomas  
+© 2023-2024 Reuben Thomas  
 https://github.com/ursalang/ursa-vscode  
 
 Ursa programming language support for VS Code.
